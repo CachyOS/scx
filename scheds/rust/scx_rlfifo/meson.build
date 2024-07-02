@@ -11,4 +11,4 @@ sched = custom_target('scx_rlfifo',
                         cargo_build_args],
               env: cargo_env,
               depends: sched_deps,
-              build_always_stale: true)
+              build_always_stale: false)

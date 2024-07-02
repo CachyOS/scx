@@ -5,4 +5,5 @@ custom_target('scx_rustland_core',
                         cargo_build_args],
               env: cargo_env,
               depends: [libbpf, bpftool_target],
-              build_by_default: true)
+              build_by_default: true,
+              build_always_stale: false)

@@ -13,7 +13,7 @@ sched = []
 # sched = custom_target('scx_mysched',
 #                       ...
 #                       depends: [mydep, sched],
-#                       build_always_stale: true)
+#                       build_always_stale: false)
 subdir('scx_layered')
 subdir('scx_mitosis')
 subdir('scx_rusty')
